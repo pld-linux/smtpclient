@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://freshmeat.net/redir/smtpclient/9732/url_tgz/%{name}-%{version}.tar.gz
+# Source0-md5:	8b5d9260572107bb901edf6aacbf3747
 Patch0:		%{name}-ac.patch
 URL:		http://www.engelschall.com/sw/smtpclient
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
