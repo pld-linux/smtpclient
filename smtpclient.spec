@@ -14,7 +14,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 smtpclient is a minimal SMTP client that takes an email message body and
 passes it on to a SMTP server. Since it is completely self-supporting, it
-is especially suitable for use in restricted environments.                                                    
+is especially suitable for use in restricted environments.
 
 %description -l pl
 smtpclient jest minimalnym klientem SMTP który bierze tre¶æ wiadomo¶ci i
