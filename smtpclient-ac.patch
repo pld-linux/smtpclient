@@ -1,0 +1,13 @@
+diff -Naur smtpclient-1.0.0/configure.in smtpclient-1.0.0-p/configure.in
+--- smtpclient-1.0.0/configure.in	Tue Oct 21 17:17:33 1997
++++ smtpclient-1.0.0-p/configure.in	Mon Feb  3 11:16:29 2003
+@@ -7,8 +7,8 @@
+ AC_REVISION($Revision$)
+ echo "Configuring for SMTPclient `./etc/newvers -l c -D smtpclient_vers.c`"
+ 
+-AC_CONFIG_AUX_DIR(etc)
+ AC_INIT(README)
++AC_CONFIG_AUX_DIR(etc)
+ AC_CONFIG_HEADER(config.h)
+ AC_PREFIX_DEFAULT(/usr/local)
+ 
