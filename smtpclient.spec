@@ -2,12 +2,13 @@ Summary:	Simple SMTP client
 Summary(pl):	Prosty klient SMTP
 Name:		smtpclient
 Version:	1.0.0
-Release:	1
+Release:	3
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://freshmeat.net/redir/smtpclient/9732/url_tgz/%{name}-%{version}.tar.gz
 # Source0-md5:	8b5d9260572107bb901edf6aacbf3747
 Patch0:		%{name}-ac.patch
+Patch1:		%{name}-raw.patch
 URL:		http://www.engelschall.com/sw/smtpclient/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -26,6 +27,7 @@ nadaje siê zw³aszcza do ¶rodowisk z du¿± ilo¶ci± na³o¿onych ograniczeñ.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__aclocal}
