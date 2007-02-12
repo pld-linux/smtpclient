@@ -1,5 +1,5 @@
 Summary:	Simple SMTP client
-Summary(pl):	Prosty klient SMTP
+Summary(pl.UTF-8):   Prosty klient SMTP
 Name:		smtpclient
 Version:	1.0.0
 Release:	3
@@ -19,10 +19,10 @@ smtpclient is a minimal SMTP client that takes an email message body and
 passes it on to a SMTP server. Since it is completely self-supporting, it
 is especially suitable for use in restricted environments.
 
-%description -l pl
-smtpclient jest minimalnym klientem SMTP który bierze tre¶æ wiadomo¶ci i
-przesy³a j± do serwera SMTP. Poniewa¿ jest ca³kowicie samowystarczalny,
-nadaje siê zw³aszcza do ¶rodowisk z du¿± ilo¶ci± na³o¿onych ograniczeñ.
+%description -l pl.UTF-8
+smtpclient jest minimalnym klientem SMTP ktÃ³ry bierze treÅ›Ä‡ wiadomoÅ›ci i
+przesyÅ‚a jÄ… do serwera SMTP. PoniewaÅ¼ jest caÅ‚kowicie samowystarczalny,
+nadaje siÄ™ zwÅ‚aszcza do Å›rodowisk z duÅ¼Ä… iloÅ›ciÄ… naÅ‚oÅ¼onych ograniczeÅ„.
 
 %prep
 %setup -q
