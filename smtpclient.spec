@@ -1,5 +1,5 @@
 Summary:	Simple SMTP client
-Summary(pl.UTF-8):   Prosty klient SMTP
+Summary(pl.UTF-8):	Prosty klient SMTP
 Name:		smtpclient
 Version:	1.0.0
 Release:	3
