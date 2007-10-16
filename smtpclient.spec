@@ -2,7 +2,7 @@ Summary:	Simple SMTP client
 Summary(pl.UTF-8):	Prosty klient SMTP
 Name:		smtpclient
 Version:	1.0.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://freshmeat.net/redir/smtpclient/9732/url_tgz/%{name}-%{version}.tar.gz
